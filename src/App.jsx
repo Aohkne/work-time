@@ -173,6 +173,15 @@ export default function App() {
 
         <footer className="footer">
           <span>Làm đủ 8 tiếng · Nghỉ trưa 12:30–13:45</span>
+          <a
+            className="footer-link"
+            href="https://github.com/Aohkne/work-time"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon icon="ph:github-logo-bold" width={20} />
+            GitHub
+          </a>
         </footer>
 
         <DoneCelebration open={celebrate} onClose={closeCelebrate} />
